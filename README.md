@@ -1,8 +1,7 @@
 # Proyecto Metodoligías Ágiles
 
 <p align="right">
-   <strong>SIM</strong><br>
-   <img src="/Docs/SIM.png" alt="SIM-Isotipo" width="100" height="100"/><br>
+   <strong>INTEGRANTES</strong><br>
    Isaac Friedman<br>
    PONER NOMBRES<br>
    PONER NOMBRES<br>
