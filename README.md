@@ -1,1 +1,1 @@
-# Proyecto-giles-Grupo2
+# Proyecto-Ágiles-Grupo2
