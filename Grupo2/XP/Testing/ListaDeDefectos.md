@@ -2,7 +2,7 @@
 
 ## 1. Defecto: La duración de la canción se muestra incorrectamente
 **Descripción:**  
-El sistema muestra la duración de una canción en un solo formato de minutos en lugar de un formato más legible, además, limita la duración de las canciones a 100 minutos.
+El sistema muestra la duración de una canción en un solo formato (minutos) en lugar de un formato más legible, además, limita la duración de las canciones a 99 minutos.
 
 ## 2. Defecto: Error en la búsqueda de álbumes
 **Historia de Usuario:** Buscar álbumes por año  
