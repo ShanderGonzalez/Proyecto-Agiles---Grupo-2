@@ -2,10 +2,13 @@
 
 <p align="right">
    <strong>INTEGRANTES</strong><br>
+   Xavier Carpio<br>
+   Shirley Collaguazo<br>
+   Pamela Cruz<br>
+   Mateo Espinoza<br>
    Isaac Friedman<br>
-   PONER NOMBRES<br>
-   PONER NOMBRES<br>
-   PONER NOMBRES<br>
+   Shander Gonzalez<br>
+   Cristian Travez<br>
 </p>
 
 ## 1. Introducción
