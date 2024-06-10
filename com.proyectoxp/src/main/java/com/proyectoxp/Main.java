@@ -12,6 +12,7 @@ import java.util.Scanner;
  * y buscar álbumes por año de lanzamiento.
  */
 public class Main {
+    
     public static void main(String[] args) {
         File archivo = new File("albumes.txt");
         if (!archivo.exists()) {
