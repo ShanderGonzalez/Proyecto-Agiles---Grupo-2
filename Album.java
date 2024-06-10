@@ -1,14 +1,34 @@
+import java.io.EOFException;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Album {
+/**
+ * La clase Album representa un álbum de música.
+ * Cada álbum tiene un título, un artista y una lista de canciones.
+ */
+public class Album implements Serializable{
+    private static final long serialVersionUID = 1L; // Agregar serialVersionUID
     private String nombre;
     private int añoLanzamiento;
     private String disquera;
     private String[] artistas;
     private List<Cancion> canciones;
 
+    /**
+     * Construye un nuevo objeto Album con los detalles dados.
+     * 
+     * @param nombre          el nombre del álbum
+     * @param añoLanzamiento  el año de lanzamiento del álbum
+     * @param disquera        el sello discográfico del álbum
+     * @param artistas        los artistas asociados al álbum
+     */
     private Album(String nombre, int añoLanzamiento, String disquera, String[] artistas) {
         this.nombre = nombre;
         this.añoLanzamiento = añoLanzamiento;
@@ -19,37 +39,49 @@ public class Album {
 
     // Getters and setters
 
+    /**
+     * Devuelve el nombre del álbum.
+     * 
+     * @return el nombre del álbum
+     */
     public String getNombre() {
         return nombre;
     }
 
+    /**
+     * Devuelve el año de lanzamiento del álbum.
+     * 
+     * @return el año de lanzamiento del álbum
+     */
     public int getAñoLanzamiento() {
         return añoLanzamiento;
     }
 
-    // Función para agregar canción a un álbum
+    /**
+     * Agrega una canción al álbum.
+     * 
+     * @param cancion la canción a agregar
+     */
     public void agregarCancion(Cancion cancion) {
-        // Verificar si la canción ya existe en el álbum
         for (Cancion c : canciones) {
             if (c.getTitulo().equals(cancion.getTitulo())) {
-                System.out.println("La cancion ya existe en el album.");
+                System.out.println("La canción ya existe en el álbum.");
                 return;
             }
         }
-
-        // Agregar la canción al álbum
-        canciones.add(cancion);
-        System.out.println("Cancion agregada al album.");
+        this.canciones.add(cancion);
+        System.out.println("Canción agregada al álbum.");
     }
 
-    // Función para mostrar álbum
+    /**
+     * Muestra los detalles del álbum.
+     */
     public void mostrarAlbum() {
-        System.out.println("Nombre del album: " + nombre);
+        System.out.println("Nombre del álbum: " + nombre);
         System.out.println("Año de lanzamiento: " + añoLanzamiento);
-        System.out.println("Disquera: " + disquera);
+        System.out.println("Sello discográfico: " + disquera);
         System.out.println("Artistas: " + Arrays.toString(artistas));
         System.out.println("Canciones:");
-
         if (canciones.isEmpty()) {
             System.out.println("No hay canciones en este álbum.");
         } else {
@@ -59,52 +91,70 @@ public class Album {
         }
     }
 
-    // Función para buscar álbumes por año
+    /**
+     * Busca álbumes lanzados en un año específico.
+     * 
+     * @param albums la lista de álbumes en la que buscar
+     * @param año    el año a buscar
+     */
     public static void buscarPorAño(List<Album> albums, int año) {
         List<Album> albumsEncontrados = new ArrayList<>();
-
         for (Album album : albums) {
             if (album.getAñoLanzamiento() == año) {
                 albumsEncontrados.add(album);
             }
         }
-
-        // Imprimir los álbumes encontrados
         if (albumsEncontrados.isEmpty()) {
-            System.out.println("No se encontraron albumes lanzados en el año " + año);
+            System.out.println("No se encontraron álbumes lanzados en el año " + año);
         } else {
-            System.out.println("Albumes lanzados en el año " + año + ":");
+            System.out.println("Álbumes lanzados en el año " + año + ":");
             for (Album album : albumsEncontrados) {
                 System.out.println(album.getNombre());
             }
         }
     }
 
+    /**
+     * Crea un nuevo objeto Album con los detalles dados.
+     * 
+     * @param nombre          el nombre del álbum
+     * @param añoLanzamiento  el año de lanzamiento del álbum
+     * @param disquera        el sello discográfico del álbum
+     * @param artistas        los artistas asociados al álbum
+     * @return el objeto Album recién creado
+     */
     public static Album crearAlbum(String nombre, int añoLanzamiento, String disquera, String[] artistas) {
-        // Verificar que el nombre no esté vacío
-        if (nombre == null || nombre.trim().isEmpty()) {
-            System.out.println("El nombre del álbum no puede estar vacío.");
-            return null;
-        }
-
-        // Verificar que la disquera no esté vacía
-        if (disquera == null || disquera.trim().isEmpty()) {
-            System.out.println("La disquera no puede estar vacía.");
-            return null;
-        }
-
-        // Verificar que haya al menos un artista
-        if (artistas == null || artistas.length == 0) {
-            System.out.println("Debe haber al menos un artista.");
-            return null;
-        }
-
-        // Verificar que el año de lanzamiento no sea negativo ni mayor que 2024
-        if (añoLanzamiento < 0 || añoLanzamiento > 2024) {
-            System.out.println("El año de lanzamiento no puede ser negativo ni mayor que 2024.");
-            return null;
-        }
-
         return new Album(nombre, añoLanzamiento, disquera, artistas);
+    }
+
+    public static void guardarAlbumes(List<Album> albumes) {
+        try {
+            FileOutputStream fileOut = new FileOutputStream("albumes.txt");
+            ObjectOutputStream out = new ObjectOutputStream(fileOut);
+            out.writeObject(albumes);
+            out.close();
+            fileOut.close();
+        } catch (IOException i) {
+            i.printStackTrace();
+        }
+    }
+
+    public static List<Album> cargarAlbumes() {
+        List<Album> albumes = new ArrayList<>();
+        try {
+            FileInputStream fileIn = new FileInputStream("albumes.txt");
+            ObjectInputStream in = new ObjectInputStream(fileIn);
+            albumes = (List<Album>) in.readObject();
+            in.close();
+            fileIn.close();
+        } catch (EOFException e) {
+            // Fin del archivo alcanzado
+        } catch (IOException i) {
+            i.printStackTrace();
+        } catch (ClassNotFoundException c) {
+            System.out.println("La clase Album no se encontró");
+            c.printStackTrace();
+        }
+        return albumes;
     }
 }
