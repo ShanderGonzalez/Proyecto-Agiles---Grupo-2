@@ -24,7 +24,7 @@ prototipo_xp/
 └── README.md
 ```
 
-## # Estructura del ProyectoEstructura del Proyecto
+### Estructura del ProyectoEstructura del Proyecto
 - .vscode/: Configuraciones específicas del entorno de Visual Studio Code.
 - src/: Contiene el código fuente y los tests.
 - main/: Código fuente principal de la aplicación.
