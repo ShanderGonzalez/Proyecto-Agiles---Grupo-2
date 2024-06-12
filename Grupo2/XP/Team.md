@@ -5,7 +5,7 @@
 - **Shirley Collaguazo** - Cliente
 - **Pamela Cruz** - Tester
 - **Mateo Espinoza** - Encargado de Seguimiento
-- **Shander Gonzales** - Programador
+- **Shander Gonzalez** - Programador
 - **Isaac Friedman** - Programador
 - **Cristian Travez** - Tester
 
@@ -15,7 +15,7 @@ El equipo "Spotify" se asemeja a un equipo de fútbol profesional, donde cada in
 - **Shirley Collaguazo (Cliente) es la Afición**: Inspira y guía al equipo con sus necesidades y deseos, representando la voz y expectativas del público.
 - **Pamela Cruz (Tester) es el Defensa**: Protege la calidad del producto, identificando y solucionando problemas antes de que lleguen al usuario final.
 - **Mateo Espinoza (Encargado de Seguimiento) es el Capitán**: Supervisa el progreso del proyecto, asegurando que el equipo mantenga el rumbo y los objetivos se cumplan a tiempo.
-- **Shander Gonzales (Programador) es el Mediocampista Ofensivo**: Desarrolla funcionalidades clave y conecta diferentes partes del sistema, proporcionando creatividad e innovación.
+- **Shander Gonzalez (Programador) es el Mediocampista Ofensivo**: Desarrolla funcionalidades clave y conecta diferentes partes del sistema, proporcionando creatividad e innovación.
 - **Isaac Friedman (Programador) es el Mediocampista Defensivo**: Trabaja en la estabilidad y eficiencia del código, asegurando que el sistema sea robusto y confiable.
 - **Cristian Travez (Tester) es el Portero**: Última línea de defensa, asegurando que ningún error llegue a producción, y manteniendo la calidad del producto final.
 
