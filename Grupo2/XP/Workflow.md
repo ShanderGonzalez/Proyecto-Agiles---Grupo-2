@@ -21,7 +21,7 @@
 ### 2. Diseño (Design)
 **Objetivo**: Crear diseños simples y eficientes para las historias de usuario priorizadas.
 
-- **Shander Gonzales (Programador)**:
+- **Shander Gonzalez (Programador)**:
   - Participa en la creación de diseños simples y efectivos para las funcionalidades a desarrollar.
   - Colabora con otros programadores para asegurar que el diseño cumpla con los requisitos técnicos.
 - **Isaac Friedman (Programador)**:
@@ -31,7 +31,7 @@
 ### 3. Codificación (Coding)
 **Objetivo**: Escribir el código necesario para implementar las historias de usuario.
 
-- **Shander Gonzales (Programador)**:
+- **Shander Gonzalez (Programador)**:
   - Desarrolla nuevas funcionalidades y mejora el código existente.
   - Colabora en parejas de programación (pair programming) para asegurar calidad y compartir conocimientos.
 - **Isaac Friedman (Programador)**:
