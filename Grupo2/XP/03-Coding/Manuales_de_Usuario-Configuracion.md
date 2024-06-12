@@ -26,15 +26,14 @@ Usuarios apasionados por la música que desean mantener un registro detallado de
   - Java Development Kit (JDK) 21
   - Visual Studio Code
 
-## 3. Ejecución de Ejecutable
+## 3. Ejecución
 ### Instrucciones para la ejecución
-   **1.** Descargar el ejecutable de Spotify by SIM desde el repositorio de GitHub.
-   **2.** La dirección del ejecutable es: "./Spotify/out/artifacts/Spotify_jar/Spotify.jar"
-   **3.** Se procede a ejecutar el programa con el siguiente comando:
+   **1.** Descargar el ejecutable de Spotify desde el repositorio de GitHub.
+   **2.** Se procede a ejecutar el programa con el siguiente comando:
    ```bash
       java -jar "./ruta/del/ejecutable/Spotify.jar"
    ```
-   **4.** Se recomienda guardar el ejecutable en una carpeta, debido a que se genera un archivo "albumes.txt" donde se guarda toda la información generada en la ejecución.
+   **3.** Se recomienda guardar el ejecutable en una carpeta, debido a que se genera un archivo "albumes.txt" donde se guarda toda la información generada en la ejecución.
 
 ## 4. Instalación IDE
 ### Instrucciones de Instalación
@@ -48,7 +47,7 @@ Usuarios apasionados por la música que desean mantener un registro detallado de
 
 **3. Clonar el Repositorio**:
    ```bash
-   git clone https://github.com/IsaacFriedman/Spotify.git
+   git clone https://github.com/IsaacFriedman/ProyectoAgiles-Grupo2.git
    ```
 
 **4. Abrir el Proyecto en Visual Studio Code**
