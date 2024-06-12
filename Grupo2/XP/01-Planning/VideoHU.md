@@ -1,0 +1,2 @@
+ # Video: Historias de Usuario
+[Ver Video](https://epnecuador-my.sharepoint.com/personal/mateo_espinoza_epn_edu_ec/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmateo%5Fespinoza%5Fepn%5Fedu%5Fec%2FDocuments%2FGrabaciones%2FReuni%C3%B3n%2D20240611%5F210541%2DGrabaci%C3%B3n%20de%20la%20reuni%C3%B3n%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eadd3bc4b%2D0f00%2D44f5%2Da300%2D26c23b159040)
