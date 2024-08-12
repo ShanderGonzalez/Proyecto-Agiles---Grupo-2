@@ -1,4 +1,4 @@
-## User Stories
+## Historia de Usuario
 
 ### HU05: Buscar álbumes por el año
 
@@ -12,4 +12,5 @@
 3. El sistema permite acceder a la información detallada de cada álbum desde la lista.
 
 #### Prototipo
-*Prototipo aún no disponible*
+![image](https://github.com/user-attachments/assets/7eb333d2-901b-4002-9fb0-b2c687046e26)
+
