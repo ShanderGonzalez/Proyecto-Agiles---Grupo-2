@@ -1,4 +1,4 @@
-## User Stories
+## Historia de Usuario
 
 ### HU02: Agregar canciones a un álbum existente
 
@@ -13,4 +13,5 @@
 4. El sistema muestra una confirmación de que la canción ha sido agregada exitosamente.
 
 #### Prototipo
-*Prototipo aún no disponible*
+![image](https://github.com/user-attachments/assets/3e9c656e-9ee6-4aa7-bb76-8c31e677ef38)
+
