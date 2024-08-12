@@ -1,4 +1,4 @@
-## User Stories
+## Historia de Usuario
 
 ### HU01: Agregar un nuevo álbum
 
@@ -12,4 +12,5 @@
 3. El sistema muestra una confirmación de que el álbum ha sido agregado exitosamente.
 
 #### Prototipo
-*Prototipo aún no disponible*
+![image](https://github.com/user-attachments/assets/8f3f24ad-4eb9-4e97-aeae-87d6474b004b)
+
