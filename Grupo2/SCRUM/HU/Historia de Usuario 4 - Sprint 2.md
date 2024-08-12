@@ -1,4 +1,4 @@
-## User Stories
+## Historia de Usuario
 
 ### HU04: Ver la lista de canciones de un álbum específico
 
@@ -12,4 +12,5 @@
 3. El sistema muestra el tiempo total de duración del álbum.
 
 #### Prototipo
-*Prototipo aún no disponible*
+![image](https://github.com/user-attachments/assets/8d013039-8539-4b60-8727-61dd5d3e9885)
+
