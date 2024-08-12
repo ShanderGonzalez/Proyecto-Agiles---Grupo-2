@@ -1,4 +1,4 @@
-## User Stories
+## Historia de Usuario
 
 ### HU03: Evitar canciones con títulos repetidos en un álbum
 
@@ -12,4 +12,5 @@
 3. El sistema muestra un mensaje de error si se intenta agregar una canción duplicada.
 
 #### Prototipo
-*Prototipo aún no disponible*
+![image](https://github.com/user-attachments/assets/935b3022-e44d-40d3-9c73-89db4eb0988b)
+
