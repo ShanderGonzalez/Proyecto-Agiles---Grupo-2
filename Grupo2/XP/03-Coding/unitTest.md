@@ -1,5 +1,5 @@
 # Pruebas Unitarias para la Clase Cancion
-Este documento describe las pruebas unitarias implementadas para la clase Cancion en el paquete com.proyectoxp. Las pruebas están escritas utilizando JUnit 5 y están diseñadas para asegurar la funcionalidad correcta de la clase Cancion.
+Este documento describe las pruebas unitarias implementadas para la clase Cancion en el paquete com.proyectoscrum. Las pruebas están escritas utilizando JUnit 5 y están diseñadas para asegurar la funcionalidad correcta de la clase Cancion.
 
 ## Clase de Prueba: CancionTest
 ### Resumen
@@ -82,7 +82,7 @@ La clase CancionTest contiene varias pruebas para validar el comportamiento de l
 Estas pruebas aseguran que la clase Cancion maneje correctamente varios escenarios, incluyendo valores vacíos, nulos, cadenas largas y caracteres especiales. Los resultados esperados para cada caso de prueba son verificados mediante afirmaciones, proporcionando una validación integral de la funcionalidad de la clase Cancion.
 
 # Pruebas Unitarias para la Clase Album
-Este documento detalla las pruebas unitarias implementadas para la clase Album en el paquete com.proyectoxp. Estas pruebas se realizan utilizando JUnit 5 y están diseñadas para verificar el comportamiento correcto de los métodos de la clase Album.
+Este documento detalla las pruebas unitarias implementadas para la clase Album en el paquete com.proyectoscrum. Estas pruebas se realizan utilizando JUnit 5 y están diseñadas para verificar el comportamiento correcto de los métodos de la clase Album.
 
 ## Clase de Prueba: AlbumTest
 Resumen
