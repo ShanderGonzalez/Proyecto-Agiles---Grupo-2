@@ -1,4 +1,14 @@
-# Prototipo
+## Arquitectura del Producto
+
+| Componente                        | Descripción                        |
+|-----------------------------------|------------------------------------|
+| **Lenguaje de Programación**      | Java                               |
+| **IDE (Entorno de Desarrollo)**   | Visual Studio Code (VS Code)       |
+| **Gestión de Dependencias**       | Maven                              |
+| **Pruebas Unitarias**             | JUnit                              |
+
+
+## Prototipo
 ```
 prototipo_scrum/
 ├── .vscode/
@@ -41,3 +51,4 @@ prototipo_scrum/
 - albumes.txt: Archivo de texto para almacenar los datos serializados de los álbumes.
 - pom.xml: Archivo de configuración de Maven.
 - README.md: Archivo de documentación del proyecto.
+
