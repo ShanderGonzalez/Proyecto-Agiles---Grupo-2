@@ -1,3 +1,25 @@
+## Definicion de visión
+1. Necesito realizar un nuevo proyecto, el producto de software sera el mismo, solo que en este caso la metodología a aplicar será diferente, en este casoe stare aplicando SCRUM
+2. Ok, para iniciar ayudame a definir la vision del proyecto a realizar con SCRUM, puedes guiarte del readme del zip
+
+## Product Backlog
+
+Necesito que me ayudea a organizar en un tipo de product backlog las necesidades que tengo con mi aplicacion
+1. quiero poder agregar un nuevo álbum con su información básica (nombre, año de lanzamiento, disquera y artistas) 
+2. quiero poder agregar canciones a un álbum existente.
+3. quiero que se evite que agregue canciones repetidas
+4. quiero poder ver la lista de canciones de un álbum específico, junto con su duración
+5. quiero poder buscar álbumes por el año 
+
+### Priorizacion
+
+Quiero me ayudes a priorizar el product backlog segun funcionalidad, primero necesitas un album para agregar canciones, hazlos por jerarquia
+
+## Planificacion Cronogrma
+
+¿Cuántos sprints sugerirías para este backlog?
+¿Cómo dividirías las tareas en dos sprints?
+
 ## Solicitud de Arquitectura del producto
 
 Estoy desarrollando un producto similar a Spotify y quiero asegurarme de usar la arquitectura correcta. El desarrollo incluirá funcionalidades crear un album, agregar una cancion, buscar por año y ver lista de canciones. ¿Qué arquitectura debería usar para cumplir con estos requisitos, considerando que utilizaré Java como lenguaje de programación, Visual Studio Code (VS Code) como IDE, Maven para la gestión de dependencias, y JUnit para pruebas unitarias?
